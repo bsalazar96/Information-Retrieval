@@ -1,0 +1,226 @@
+Script started on Tue 19 Nov 2013 04:08:33 AM CST
+dihuynh@almond-joy:/v/filer4b/v38q001/dihuynh/ir/webutils$ java ir.webutils.PageRankSiteSpider -u http://www.cs.utexas.edu/~mmooney/ir-course/students.html -d crawledPages/ -c 200[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pproj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ir/webutils/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps -aux | grep 'dihuynh'[Ksublime_text irjava ir.webutils.PageRankSiteSpider -u http://www.cs.utexas.edu/~mmooney/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pc PageRankSpider.java PageRankSiteSpider.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSiteSpider -u http://www.cs.utexas.edu/~mmooney/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pc PageRankSpider.java PageRankSiteSpider.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSiteSpider -u http://www.cs.utexas.edu/~mmooney/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpider -u http://www.cs.utexas.edu/~moone[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pc PageRankSpider.java Node.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[39Pc PageRankSpider.java 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[39Pc PageRankSpider.java 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[39Pc PageRankSpider.java 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[39Pc PageRankSpider.java 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ir.webutils.PageRankSpider -u http://www.cs.utexas.edu/~mooneey/ir-course/proj3/a.html -d test/ -c 75[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CiteSpider -u http://www.cs.utexas.edu/~m[4@oone[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CSiteSpider -u http://www.cs.utexas.edu/~mooney/ir[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdihuynh@necco-wafers:/v/filer4b/v38q001/dihuynh/ir/webutils$ javac[15P PageRankSpider.java[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pjava ir.webutils.SiteSpider -u 1 error -d test/ -c 75
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[28Pc PageRankSpider.java Spider.javals[Kjavac PageRankSpider.java ls[Kjavac PageRankSpider.java Spider.java[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kjava ir.vsr.PageRankInvertedIndex -html -weight 0 crawledPages
+Indexing documents in crawledPages
+P001.html,P002.html,P003.html,P004.html,P005.html,P006.html,P007.html,P008.html,P009.html,P010.html,P011.html,P012.html,P013.html,P014.html,P015.html,P016.html,P017.html,P018.html,P019.html,P020.html,P021.html,P022.html,P023.html,P024.html,P025.html,P026.html,P027.html,P028.html,P029.html,P030.html,P031.html,P032.html,P033.html,P034.html,P035.html,P036.html,P037.html,P038.html,P039.html,P040.html,P041.html,P042.html,P043.html,P044.html,P045.html,P046.html,P047.html,P048.html,P049.html,P050.html,P051.html,P052.html,P053.html,P054.html,P055.html,P056.html,P057.html,P058.html,P059.html,P060.html,P061.html,P062.html,P063.html,P064.html,P065.html,P066.html,P067.html,P068.html,P069.html,P070.html,P071.html,P072.html,P073.html,P074.html,P075.html,P076.html,P077.html,P078.html,P079.html,P080.html,P081.html,P082.html,P083.html,P084.html,P085.html,P086.html,P087.html,P088.html,P089.html,P090.html,P091.html,P092.html,P093.html,P094.html,P095.html,P096.html,P097.html,P098.html,P099.html,P100.html,P101.html,P102.html,P103.html,P104.html,P105.html,P106.html,P107.html,P108.html,P109.html,P110.html,P111.html,P112.html,P113.html,P114.html,P115.html,P116.html,P117.html,P118.html,P119.html,P120.html,P121.html,P122.html,P123.html,P124.html,P125.html,P126.html,P127.html,P128.html,P129.html,P130.html,P131.html,P132.html,P133.html,P134.html,P135.html,P136.html,P137.html,P138.html,P139.html,P140.html,P141.html,P142.html,P143.html,P144.html,P145.html,P146.html,P147.html,P148.html,P149.html,P150.html,P151.html,P152.html,P153.html,P154.html,P155.html,P156.html,P157.html,P158.html,P159.html,P160.html,P161.html,P162.html,P163.html,P164.html,P165.html,P166.html,P167.html,P168.html,P169.html,P170.html,P171.html,P172.html,P173.html,P174.html,P175.html,P176.html,P177.html,P178.html,P179.html,P180.html,P181.html,P182.html,P183.html,P184.html,P185.html,P186.html,P187.html,P188.html,P189.html,P190.html,P191.html,P192.html,P193.html,P194.html,P195.html,P196.html,P197.html,P198.html,P199.html,P200.html,
+Indexed 200 documents with 6223 unique terms.
+Now able to process queries. When done, enter an empty query to exit.
+
+Enter query:  ray   Rya  aymond machine learning
+
+Top 10 matching Documents from most to least relevant:
+
+1.  P130.html            Score: 0.32982
+2.  P022.html            Score: 0.16491
+3.  P034.html            Score: 0.14302
+4.  P068.html            Score: 0.12966
+5.  P168.html            Score: 0.1002
+6.  P147.html            Score: 0.09213
+7.  P072.html            Score: 0.07573
+8.  P141.html            Score: 0.07535
+9.  P119.html            Score: 0.06599
+10. P123.html            Score: 0.05269
+
+Enter `m' to see more, a number to show the nth document, nothing to exit.
+
+ Enter command:  
+
+Enter query:  cryptography
+
+Top 10 matching Documents from most to least relevant:
+
+1.  P106.html            Score: 0.46789
+2.  P023.html            Score: 0.21624
+3.  P047.html            Score: 0.21218
+4.  P118.html            Score: 0.21026
+5.  P029.html            Score: 0.19819
+6.  P070.html            Score: 0.19167
+7.  P051.html            Score: 0.17564
+8.  P098.html            Score: 0.02216
+9.  P079.html            Score: 0.02068
+10. P092.html            Score: 0.0166
+
+Enter `m' to see more, a number to show the nth document, nothing to exit.
+
+ Enter command:  
+
+Enter query:  vision visualization graphics
+
+Top 10 matching Documents from most to least relevant:
+
+1.  P129.html            Score: 0.32508
+2.  P081.html            Score: 0.30907
+3.  P071.html            Score: 0.17608
+4.  P094.html            Score: 0.07787
+5.  P011.html            Score: 0.06625
+6.  P103.html            Score: 0.06197
+7.  P030.html            Score: 0.06176
+8.  P035.html            Score: 0.05848
+9.  P013.html            Score: 0.05726
+10. P033.html            Score: 0.05692
+
+Enter `m' to see more, a number to show the nth document, nothing to exit.
+
+ Enter command:  
+
+Enter query:  
+dihuynh@almond-joy:/v/filer4b/v38q001/dihuynh/ir/webutils$ java ir.vsr.PageRankInvertedIndex -html  -weight 0 crawledPages[C[1@2
+Indexing documents in crawledPages
+P001.html,P002.html,P003.html,P004.html,P005.html,P006.html,P007.html,P008.html,P009.html,P010.html,P011.html,P012.html,P013.html,P014.html,P015.html,P016.html,P017.html,P018.html,P019.html,P020.html,P021.html,P022.html,P023.html,P024.html,P025.html,P026.html,P027.html,P028.html,P029.html,P030.html,P031.html,P032.html,P033.html,P034.html,P035.html,P036.html,P037.html,P038.html,P039.html,P040.html,P041.html,P042.html,P043.html,P044.html,P045.html,P046.html,P047.html,P048.html,P049.html,P050.html,P051.html,P052.html,P053.html,P054.html,P055.html,P056.html,P057.html,P058.html,P059.html,P060.html,P061.html,P062.html,P063.html,P064.html,P065.html,P066.html,P067.html,P068.html,P069.html,P070.html,P071.html,P072.html,P073.html,P074.html,P075.html,P076.html,P077.html,P078.html,P079.html,P080.html,P081.html,P082.html,P083.html,P084.html,P085.html,P086.html,P087.html,P088.html,P089.html,P090.html,P091.html,P092.html,P093.html,P094.html,P095.html,P096.html,P097.html,P098.html,P099.html,P100.html,P101.html,P102.html,P103.html,P104.html,P105.html,P106.html,P107.html,P108.html,P109.html,P110.html,P111.html,P112.html,P113.html,P114.html,P115.html,P116.html,P117.html,P118.html,P119.html,P120.html,P121.html,P122.html,P123.html,P124.html,P125.html,P126.html,P127.html,P128.html,P129.html,P130.html,P131.html,P132.html,P133.html,P134.html,P135.html,P136.html,P137.html,P138.html,P139.html,P140.html,P141.html,P142.html,P143.html,P144.html,P145.html,P146.html,P147.html,P148.html,P149.html,P150.html,P151.html,P152.html,P153.html,P154.html,P155.html,P156.html,P157.html,P158.html,P159.html,P160.html,P161.html,P162.html,P163.html,P164.html,P165.html,P166.html,P167.html,P168.html,P169.html,P170.html,P171.html,P172.html,P173.html,P174.html,P175.html,P176.html,P177.html,P178.html,P179.html,P180.html,P181.html,P182.html,P183.html,P184.html,P185.html,P186.html,P187.html,P188.html,P189.html,P190.html,P191.html,P192.html,P193.html,P194.html,P195.html,P196.html,P197.html,P198.html,P199.html,P200.html,
+Indexed 200 documents with 6223 unique terms.
+Now able to process queries. When done, enter an empty query to exit.
+
+Enter query:  Raymond machine learning
+
+Top 10 matching Documents from most to least relevant:
+
+1.  P147.html            Score: 1.57039
+2.  P073.html            Score: 0.82083
+3.  P130.html            Score: 0.37687
+4.  P072.html            Score: 0.3279
+5.  P022.html            Score: 0.18868
+6.  P034.html            Score: 0.16967
+7.  P068.html            Score: 0.15751
+8.  P150.html            Score: 0.1287
+9.  P168.html            Score: 0.12812
+10. P125.html            Score: 0.1176
+
+Enter `m' to see more, a number to show the nth document, nothing to exit.
+
+ Enter command:  
+
+Enter query:  cyp  ryptography
+
+Top 10 matching Documents from most to least relevant:
+
+1.  P106.html            Score: 0.50155
+2.  P023.html            Score: 0.2464
+3.  P029.html            Score: 0.2448
+4.  P047.html            Score: 0.23516
+5.  P070.html            Score: 0.23383
+6.  P118.html            Score: 0.2321
+7.  P051.html            Score: 0.21217
+8.  P079.html            Score: 0.10155
+9.  P098.html            Score: 0.06871
+10. P092.html            Score: 0.05315
+
+Enter `m' to see more, a number to show the nth document, nothing to exit.
+
+ Enter command:  
+
+Enter query:  vision visualization graphics
+
+Top 10 matching Documents from most to least relevant:
+
+1.  P129.html            Score: 0.3459
+2.  P081.html            Score: 0.34578
+3.  P071.html            Score: 0.2007
+4.  P158.html            Score: 0.16705
+5.  P151.html            Score: 0.13694
+6.  P094.html            Score: 0.09742
+7.  P103.html            Score: 0.08922
+8.  P030.html            Score: 0.08609
+9.  P014.html            Score: 0.08601
+10. P020.html            Score: 0.08512
+
+Enter `m' to see more, a number to show the nth document, nothing to exit.
+
+ Enter command:  
+
+Enter query:  
+dihuynh@almond-joy:/v/filer4b/v38q001/dihuynh/ir/webutils$ java ir.vsr.PageRankInvertedIndex -html  -weight 20 crawledPages[1P[1@1[C0 crawledPages[C[C[C[C[C[C[C[C[C[C[C
+Indexing documents in crawledPages
+P001.html,P002.html,P003.html,P004.html,P005.html,P006.html,P007.html,P008.html,P009.html,P010.html,P011.html,P012.html,P013.html,P014.html,P015.html,P016.html,P017.html,P018.html,P019.html,P020.html,P021.html,P022.html,P023.html,P024.html,P025.html,P026.html,P027.html,P028.html,P029.html,P030.html,P031.html,P032.html,P033.html,P034.html,P035.html,P036.html,P037.html,P038.html,P039.html,P040.html,P041.html,P042.html,P043.html,P044.html,P045.html,P046.html,P047.html,P048.html,P049.html,P050.html,P051.html,P052.html,P053.html,P054.html,P055.html,P056.html,P057.html,P058.html,P059.html,P060.html,P061.html,P062.html,P063.html,P064.html,P065.html,P066.html,P067.html,P068.html,P069.html,P070.html,P071.html,P072.html,P073.html,P074.html,P075.html,P076.html,P077.html,P078.html,P079.html,P080.html,P081.html,P082.html,P083.html,P084.html,P085.html,P086.html,P087.html,P088.html,P089.html,P090.html,P091.html,P092.html,P093.html,P094.html,P095.html,P096.html,P097.html,P098.html,P099.html,P100.html,P101.html,P102.html,P103.html,P104.html,P105.html,P106.html,P107.html,P108.html,P109.html,P110.html,P111.html,P112.html,P113.html,P114.html,P115.html,P116.html,P117.html,P118.html,P119.html,P120.html,P121.html,P122.html,P123.html,P124.html,P125.html,P126.html,P127.html,P128.html,P129.html,P130.html,P131.html,P132.html,P133.html,P134.html,P135.html,P136.html,P137.html,P138.html,P139.html,P140.html,P141.html,P142.html,P143.html,P144.html,P145.html,P146.html,P147.html,P148.html,P149.html,P150.html,P151.html,P152.html,P153.html,P154.html,P155.html,P156.html,P157.html,P158.html,P159.html,P160.html,P161.html,P162.html,P163.html,P164.html,P165.html,P166.html,P167.html,P168.html,P169.html,P170.html,P171.html,P172.html,P173.html,P174.html,P175.html,P176.html,P177.html,P178.html,P179.html,P180.html,P181.html,P182.html,P183.html,P184.html,P185.html,P186.html,P187.html,P188.html,P189.html,P190.html,P191.html,P192.html,P193.html,P194.html,P195.html,P196.html,P197.html,P198.html,P199.html,P200.html,
+Indexed 200 documents with 6223 unique terms.
+Now able to process queries. When done, enter an empty query to exit.
+
+Enter query:  ray   Raymond machine learning
+
+Top 10 matching Documents from most to least relevant:
+
+1.  P147.html            Score: 7.48344
+2.  P073.html            Score: 4.04693
+3.  P072.html            Score: 1.33655
+4.  P130.html            Score: 0.56505
+5.  P150.html            Score: 0.552
+6.  P125.html            Score: 0.5167
+7.  P192.html            Score: 0.42759
+8.  P162.html            Score: 0.32439
+9.  P169.html            Score: 0.31224
+10. P022.html            Score: 0.28373
+
+Enter `m' to see more, a number to show the nth document, nothing to exit.
+
+ Enter command:  
+
+Enter query:  cypty    ryptography
+
+Top 10 matching Documents from most to least relevant:
+
+1.  P106.html            Score: 0.6362
+2.  P029.html            Score: 0.43125
+3.  P079.html            Score: 0.42501
+4.  P070.html            Score: 0.40248
+5.  P023.html            Score: 0.367
+6.  P051.html            Score: 0.3583
+7.  P047.html            Score: 0.3271
+8.  P118.html            Score: 0.3195
+9.  P098.html            Score: 0.25493
+10. P092.html            Score: 0.19934
+
+Enter `m' to see more, a number to show the nth document, nothing to exit.
+
+ Enter command:  
+
+Enter query:  vision si  visual  ization graphics
+
+Top 10 matching Documents from most to least relevant:
+
+1.  P158.html            Score: 0.75592
+2.  P151.html            Score: 0.66468
+3.  P081.html            Score: 0.49262
+4.  P129.html            Score: 0.42917
+5.  P162.html            Score: 0.32951
+6.  P071.html            Score: 0.29916
+7.  P014.html            Score: 0.20367
+8.  P020.html            Score: 0.202
+9.  P103.html            Score: 0.19824
+10. P033.html            Score: 0.1929
+
+Enter `m' to see more, a number to show the nth document, nothing to exit.
+
+ Enter command:  
+
+Enter query:  
+dihuynh@almond-joy:/v/filer4b/v38q001/dihuynh/ir/webutils$ exit
+
+Script done on Tue 19 Nov 2013 04:11:48 AM CST
