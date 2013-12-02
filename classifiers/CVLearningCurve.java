@@ -250,6 +250,7 @@ public class CVLearningCurve {
   public void trainAndTestFold(Vector<Example> train, Vector<Example> test, int fold,
                                PointResults testPointResults, PointResults trainPointResults) {
     long startTime = System.currentTimeMillis();
+    System.out.println("train size: "  + train.size());
     // train the classifier on train data
     classifier.train(train);
     double timeTaken = System.currentTimeMillis() - startTime;
@@ -328,7 +329,7 @@ public class CVLearningCurve {
             train.addAll(foldBins[i][j]);
           }
         }
-        // Otherwise need to add just a fraction of this fold to complete
+        // Otherwise need to add just a fraction getTrainCVof this fold to complete
         // train data
         else {
           double fractionNeeded = ((double) (numTrain - train.size())) / foldSize;
@@ -427,7 +428,7 @@ public class CVLearningCurve {
     writeCurve(allResults, name);
     File graphFile = new File(name + ".gplot");
     PrintWriter out = new PrintWriter(new FileWriter(graphFile));
-    out.print("set xlabel \"Size of training set\"\nset ylabel \"Accuracy\"\n\nset terminal postscript color\nset size 0.75,0.75\n\nset data style linespoints\n\nplot \'" + name + ".data\' title \"" + name + "\"");
+    out.print("set xlabel \"Size of training set\"\nset ylabel \"Accuracy\"\n\nset terminal postscript color\nset size 0.75,0.75\n\nset style data linespoints\n\nplot \'" + name + ".data\' title \"" + name + "\"");
     out.close();
   }
 }

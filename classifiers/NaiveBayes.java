@@ -123,6 +123,7 @@ public class NaiveBayes extends Classifier {
   public void train(List<Example> trainExamples) {
     trainResult = new BayesResult();
     numExamples = trainExamples.size();
+    
     //calculate class priors
     trainResult.setClassPriors(calculatePriors(trainExamples));
     //calculate counts of feature for each class

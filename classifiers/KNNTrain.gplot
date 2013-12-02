@@ -6,4 +6,4 @@ set size 0.75,0.75
 
 set style data linespoints
 
-plot 'NaiveBayes.data' title "NaiveBayes"
+plot 'KNNTrain.data' title "KNNTrain"

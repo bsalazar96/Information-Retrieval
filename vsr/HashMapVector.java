@@ -121,6 +121,15 @@ public class HashMapVector {
     }
   }
 
+  public void subtractScaled(HashMapVector vector, double scalingFactor) {
+    for (Map.Entry<String, Weight> entry : vector.entrySet()) {
+      // An entry in the HashMap maps a token to a Weight
+      String token = entry.getKey();
+      // The weight for the token is in the value of the Weight
+      double weight = entry.getValue().getValue();
+      increment(token, -weight*scalingFactor);
+    }
+  }
 
   /**
    * Destructively multiply the vector by a constant

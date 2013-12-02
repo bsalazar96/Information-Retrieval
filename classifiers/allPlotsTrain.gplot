@@ -1,0 +1,11 @@
+set xlabel "Size of training set"
+set ylabel "Accuracy"
+
+set terminal postscript color
+set size 0.75,0.75
+
+set style data linespoints
+
+plot 'KNN_5_Train.data' title "KNN_5_Train",'KNN_1_Train.data' title "KNN_1_Train",'KNN_3_Train.data' title "KNN_3_Train", 'NaiveBayesTrain.data' title "NaiveBayesTrain",'RocchioNormalTrain.data' title "RocchioNormalTrain",'RocchioModifiedTrain.data' title "RocchioModTrain"
+	
+	
